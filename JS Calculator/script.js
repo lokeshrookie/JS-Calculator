@@ -11,13 +11,6 @@ function appendNumber(s){
     }
     currentNumber = currentNumber.toString() + s.toString();
     updateDisplay();
-
-    // if(display.innerText == 0){
-    //     display.innerText = s;
-    // }
-    // else{
-    //     display.innerText += s;
-    // }
 }
 
 function chooseOperation(op){
@@ -32,7 +25,6 @@ function chooseOperation(op){
 }
 
 function clearDisplay(){
-    // display.innerText = 0;
     currentNumber = '';
     previousNumber = '';
     operation = null;
